@@ -164,12 +164,15 @@ Thumbnail that links to full-size (recommended for large images):
 [![Product page thumbnail](docs/assets/screenshots/product-page-thumb.png)](docs/assets/screenshots/product-page.png)
 ```
 
-Three example images with captions:
+Four example images with captions:
 ![Homepage — Product listing](docs/assests/screenshots/homepage.png)
+
+![database model](docs/assets/screenshots/database.png)
 
 ![Product detail — Variant & price](docs/assets/screenshots/product-page.png)
 
 ![Cart modal — Items & checkout CTA](docs/assets/screenshots/cart.png)
+
 
 Notes:
 - Filenames used above (placeholders) — homepage.png, product-page.png, product-page-thumb.png, cart.png
@@ -251,4 +254,5 @@ Please include clear PR descriptions and link any related issues.
 ---
 
 Happy hacking!
+
 
