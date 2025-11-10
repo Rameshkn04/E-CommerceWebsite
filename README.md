@@ -167,7 +167,7 @@ Thumbnail that links to full-size (recommended for large images):
 Four example images with captions:
 ![Homepage — Product listing](docs/assests/screenshots/homepage.png)
 
-![database model](docs/assets/screenshots/database.png)
+![database model](docs/assests/screenshots/database.png)
 
 ![Product detail — Variant & price](docs/assets/screenshots/product-page.png)
 
@@ -254,5 +254,6 @@ Please include clear PR descriptions and link any related issues.
 ---
 
 Happy hacking!
+
 
 
