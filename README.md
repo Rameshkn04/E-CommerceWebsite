@@ -187,6 +187,7 @@ Quick example you can paste at the exact line you mention (line ~211):
 Below are screenshots of the application in the running state. Click thumbnails to view full-size images.
 
 [![Homepage](/docs/assets/screenshots/homepage-thumb.png)](/docs/assets/screenshots/homepage.png)
+[![Database](/docs/assets/screenshots/database-thumb.png)](/docs/assets/screenshots/database.png)
 [![Product detail](/docs/assets/screenshots/product-page-thumb.png)](/docs/assets/screenshots/product-page.png)
 [![Cart modal](/docs/assets/screenshots/cart-thumb.png)](/docs/assets/screenshots/cart.png)
 ```
@@ -254,6 +255,7 @@ Please include clear PR descriptions and link any related issues.
 ---
 
 Happy hacking!
+
 
 
 
