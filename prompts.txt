@@ -1,0 +1,103 @@
+💬 Phase 1: Architecture & Folder Setup
+
+Prompt to give Cursor.ai:
+
+You are a senior full-stack engineer.  
+Create a technical architecture plan for an E-Commerce Website that allows users to:
+- Explore products
+- View product details
+- Manage a shopping cart
+
+Tech stack:
+- Frontend: React.js with React Router for navigation
+- Backend: Node.js with Express.js
+- Database: MongoDB Atlas
+
+Requirements:
+- Clean responsive UI
+- State management for cart
+- RESTful API between frontend and backend
+
+Deliver:
+1. Folder structure (both frontend and backend)
+2. Description of each folder’s purpose
+3. Data flow between client, server, and database
+4. Example architecture diagram (ASCII or markdown)
+
+
+This gives you:
+✅ Technical architecture document
+✅ Folder structure to use
+✅ Overview diagram you can include in documentation
+
+💬 Phase 2: Frontend (React.js)
+
+Prompt to give Cursor.ai:
+
+Create the React.js frontend for the E-Commerce website based on this architecture:
+- Use React Router for navigation
+- Components: HomePage, ProductList, ProductDetail, Cart
+- Add state management using Context API for cart
+- Use a modern responsive design (TailwindCSS or basic CSS)
+- Fetch products from backend API endpoints
+
+Include:
+1. `App.js` routing setup
+2. ProductCard and CartItem components
+3. Functions to add/remove items from the cart
+4. Axios integration for fetching data from backend
+
+
+Extra prompt for UI polish:
+
+Improve the UI of the ProductList and ProductDetail pages with a clean modern layout and responsive design using TailwindCSS.
+
+💬 Phase 3: Backend (Node.js + Express.js)
+
+Prompt to give Cursor.ai:
+
+Generate a Node.js + Express.js backend for the e-commerce site.
+Functionalities:
+- Get all products
+- Get product by ID
+- Add/remove items to/from cart (simulate cart API)
+- Connect to MongoDB Atlas
+- Use `mongoose` models for Product and User
+
+Project setup:
+- Use `dotenv` for environment variables
+- Folder structure: routes, models, controllers, config
+- Create sample product seed data for testing
+
+
+Follow-up prompt:
+
+Add input validation and error handling middleware to the Express backend.
+
+💬 Phase 4: Database Integration
+
+Prompt to give Cursor.ai:
+
+Generate Mongoose models for:
+1. Product (name, description, price, image, category)
+2. User (name, email, password hash, cart items)
+3. Cart (user reference, list of product references with quantity)
+
+Add MongoDB Atlas connection setup in `config/db.js` using environment variables.
+Also, add a sample `seed.js` script to populate the database with dummy products.
+
+💬 Phase 5: Documentation and Prompts Collection
+
+Prompt to give Cursor.ai:
+
+Create a README.md for this E-Commerce project including:
+1. Project overview and architecture
+2. Tech stack used
+3. How to set up and run frontend/backend
+4. MongoDB connection instructions
+5. Example API endpoints
+6. Features implemented
+7. Future improvements section
+
+
+Then, gather all the previous prompts you gave Cursor.ai and compile them under “Prompts used for code generation” — this satisfies item #3 in the deliverables
