@@ -156,7 +156,7 @@ I added example image references here so you can display output screenshots in t
 
 Single image (full width):
 ```markdown
-![Homepage — Product listing](docs/assets/screenshots/homepage.png)
+![Homepage — Product listing](docs/assests/screenshots/homepage.png)
 ```
 
 Thumbnail that links to full-size (recommended for large images):
@@ -165,7 +165,7 @@ Thumbnail that links to full-size (recommended for large images):
 ```
 
 Three example images with captions:
-![Homepage — Product listing](docs/assets/screenshots/homepage.png)
+![Homepage — Product listing](docs/assests/screenshots/homepage.png)
 
 ![Product detail — Variant & price](docs/assets/screenshots/product-page.png)
 
@@ -251,3 +251,4 @@ Please include clear PR descriptions and link any related issues.
 ---
 
 Happy hacking!
+
